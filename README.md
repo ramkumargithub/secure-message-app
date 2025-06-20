@@ -44,5 +44,3 @@ A secure internal messaging MVP built with Node.js and TypeScript. This project 
 
 bash
 npm install
-# or
-yarn install
