@@ -48,13 +48,8 @@ npm install
 ### Security tests
 
 🔐 Included Test Cases:
-	1.	Script Injection in Username
-    	  •	Rejects <script> tags in registration.
-	2.	Stored XSS in Messages
-      	•	Ensures messages are sanitized before being stored/displayed.
-	3.	Invalid JSON Payload
-      	•	Confirms the app properly handles malformed JSON.
-	4.	Rate Limiting Check
-      	•	Ensures protection against brute-force or abuse attempts.
-	5.	Path Traversal Attempt
-      	•	Blocks unsafe paths like ../../etc/passwd in message routes.
+1. Script Injection in Username - Rejects <script> tags in registration.
+2. Stored XSS in Messages - Ensures messages are sanitized before being stored/displayed.
+3. Invalid JSON Payload - Confirms the app properly handles malformed JSON.
+4. Rate Limiting Check - Ensures protection against brute-force or abuse attempts.
+5. Path Traversal Attempt - Blocks unsafe paths like ../../etc/passwd in message routes.
